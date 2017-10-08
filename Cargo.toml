@@ -1,0 +1,16 @@
+[package]
+authors = ["Tobias Schottdorf <tobias.schottdorf@gmail.com>"]
+name = "dieselroach"
+version = "0.1.0"
+
+[dependencies]
+dotenv = "*"
+
+[dependencies.diesel_codegen]
+features = ["postgres"]
+version = "*"
+
+[dependencies.diesel]
+features = ["postgres"]
+git = "https://github.com/diesel-rs/diesel"
+rev = "0ce9179facd7defaef70b3b3563ba1c69dd27d48"
